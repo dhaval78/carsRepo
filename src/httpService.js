@@ -1,5 +1,5 @@
 import axios from "axios"
-const baseURL="http://localhost:2410"
+const baseURL="https://cars-backend-c238.onrender.com"
 function get(url,obj){
     return axios.get(baseURL+url,obj);
 }
